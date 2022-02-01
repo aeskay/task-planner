@@ -34,10 +34,10 @@ body{
 .footer{
   background: rgb(29, 29, 29);
   min-height: 7vh;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: #f0f0f0;
   align-items: center;
+  padding: 20px 0px;
 }
 
 .itemTab{
@@ -328,4 +328,15 @@ body{
 
 .section{
   margin-top: 20px
+}
+
+.soc-icons a{
+  text-decoration: none;
+  color: #b8b8b8;
+  margin: 0px 5px;
+  font-size: 20px;
+}
+
+.soc-icons a:hover{
+  color: white;
 }
