@@ -319,3 +319,13 @@ body{
   /* margin-left: 40%; */
   border: 1px solid #198754;
 }
+
+.subtitle{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: lighter;
+  font-size: x-large;
+}
+
+.section{
+  margin-top: 20px
+}

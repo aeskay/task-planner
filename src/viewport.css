@@ -49,3 +49,26 @@
         margin-top: 8px;
     }
 }
+
+@media (min-width:1200px) {
+    .section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .section div{
+        margin: 10px
+    }
+}
+@media (max-width:1200px) {
+    
+    .section div{
+        margin: 20px 10px;
+    }
+
+    .section-alt{
+        display: flex; 
+        flex-flow: column-reverse;
+    }
+}
